@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nish7156</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/javascript/main.js"></script>
+</head>
+<body>
+    <nav class="nav">
+<ul>
+    <li><a href="/index/index.html" class="active1">Home</a></li>
+    <li><a href="/index/contact.html">Contact</a></li>
+    <li><a href="/index/login.html">Log In </a></li>
+    <li><a href="/index/about.html">About Us</a></li>
+</ul>
+    </nav>
+    <section class="sec1">
+        <h1>Game Zone</h1>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 7</div>
+              <img src="/img/paly.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 7</div>
+              <img src="/img/gta.jpg" class="glow" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 7</div>
+              <img src="/img/nfs.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 7</div>
+              <img src="/img/hori.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 7</div>
+              <img src="/img/z.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 7</div>
+              <img src="/img/hr.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 7</div>
+              <img src="/img/lap.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+               <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+    </section>
+    <section class="sec2">
+     <br>    <h1>Types</h1>
+     <section class="subsec2"><br><br>
+       <h1 class="h2">$ Grand Theft Auto IV</h1><br>
+       <h1 class="h2">$ Assassin's Creed II</h1><br>
+       <h1 class="h2">$ Bayonetta</h1><br>
+       <h1 class="h2">$ Castlevania</h1><br>
+       <h1 class="h2">$ Assassin's Creed</h1><br>
+       <h1 class="h2">$ NFS</h1><br>
+       <h1 class="h2">$ HitMan</h1><br>
+       <h1 class="h2">$ Minacraft</h1><br>
+     </section>
+    </section>
+    <section class="sec3">
+      <div class="main">
+        <div class="box">
+            <h3 class="h4">List Of Games</h4>
+            <br><br>
+           <a href="https://www.pcgamebenchmark.com/best-pc-games">
+       <h1 class="h3">PC Games From 2021</h1><br>
+       <h1 class="h3">PC Games From 2020</h1><br>
+       <h1 class="h3">PC Games From 2019</h1><br>
+       <h1 class="h3">PC Games From 2018</h1><br>
+       <h1 class="h3">PC Games From 2017</h1><br>
+       <h1 class="h3">PC Games From 2016</h1><br>
+       <h1 class="h3">PC Games From 2015</h1><br>
+      </a>
+        </div>
+    </div>
+    <div class="main1">
+      <div class="box1">
+        <h3 class="h4">Game Websites List</h4>
+          <br><br>
+          <a href="https://filmora.wondershare.com/video-editor/top-game-download-sites.html">
+            <h1 class="h3">Niche Gamer </h1><br>
+            <h1 class="h3">TechRaptor</h1><br>
+            <h1 class="h3">Gematsu</h1><br>
+            <h1 class="h3">Destructoid</h1><br>
+            <h1 class="h3">PC Gamer</h1><br>
+            <h1 class="h3">GameFAQs</h1><br>
+            <h1 class="h3">GameSpot </h1><br>
+           </a>
+      </div>
+  </div>
+  </section>
+    </section>
+    <section class="hrsec glow">
+     
+    </section>
+    <section class="logo">
+      <img src="/img/logo.jpg" class="logo" alt="">
+    </section>
+    <section class="game">
+      <h4>More Games</h4>
+    </section>
+</body>
+</html>
